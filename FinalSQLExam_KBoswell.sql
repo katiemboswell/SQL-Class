@@ -10,19 +10,19 @@
 --***********************************************************************************************--
 Begin Try
 	Use Master;
-	If Exists(Select Name From SysDatabases Where Name = 'ITFnd130FinalDB_KBoswell')
+	If Exists(Select Name From SysDatabases Where Name = 'DatabaseFoundations_KBoswell')
 	 Begin 
-	  Alter Database [ITFnd130FinalDB_KBoswell] set Single_user With Rollback Immediate;
-	  Drop Database ITFnd130FinalDB_KBoswell;
+	  Alter Database [DatabaseFoundations_KBoswell] set Single_user With Rollback Immediate;
+	  Drop Database DatabaseFoundations_KBoswell;
 	 End
-	Create Database ITFnd130FinalDB_KBoswell;
+	Create Database DatabaseFoundations_KBoswell;
 End Try
 Begin Catch
 	Print Error_Number();
 End Catch
 Go
 
-Use ITFnd130FinalDB_KBoswell;
+Use DatabaseFoundations_KBoswell;
 
 -- Create Tables-- 
 Create Table Courses
