@@ -943,8 +943,4 @@ Select Case @Status
   When -1 Then 'Courses Delete failed! Common Issues: Foreign Key Violation'
   End as [Status];
 Select * From vCourses;
-go
 
---{ IMPORTANT!!! }--
--- To get full credit, your script must run without having to highlight individual statements!!!  
-/**************************************************************************************************/
