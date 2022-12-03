@@ -1,5 +1,5 @@
 --**********************************************************************************************--
--- Title: ITFnd130Final
+-- Title: Final Exam, SQL Databases, UW Database Foundations
 -- Author: KBoswell
 -- Desc: This file demonstrates how to design and create 
 --       tables, views, and stored procedures
