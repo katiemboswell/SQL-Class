@@ -752,6 +752,51 @@ Deny Select on Registrations to Public;
 Grant Select on vRegistrations to Public;
 Go
 
+Deny Insert on Courses to Public;
+Grant Insert on vCourses to Public;
+Go
+
+Deny Insert on Students to Public;
+Grant Insert on vStudents to Public;
+Go
+
+Deny Insert on Registrations to Public;
+Grant Insert on vRegistrations to Public;
+Go
+
+Deny Update on Courses to Public;
+Grant Update on vCourses to Public;
+Go
+
+Deny Update on Students to Public;
+Grant Update on vStudents to Public;
+Go
+
+Deny Update on Registrations to Public;
+Grant Update on vRegistrations to Public;
+Go
+
+Deny Delete on Courses to Public;
+Grant Delete on vCourses to Public;
+Go
+
+Deny Delete on Students to Public;
+Grant Delete on vStudents to Public;
+Go
+
+Deny Delete on Registrations to Public;
+Grant Delete on vRegistrations to Public;
+Go
+
+Grant execute on pUpdRegistrations to Public;
+Go
+
+Grant execute on pInsRegistrations to Public;
+Go
+
+Grant execute on pDelRegistrations to Public;
+Go
+
 --***********************************
 --Test Insert Sprocs
 --***********************************
